@@ -1,10 +1,11 @@
 package users
 
 import (
-	"github.com/triaton/go-echo-boilerplate/common"
-	"github.com/triaton/go-echo-boilerplate/database"
-	"github.com/triaton/go-echo-boilerplate/users/models"
 	"sync"
+
+	"github.com/topben/go-echo-boilerplate/common"
+	"github.com/topben/go-echo-boilerplate/database"
+	"github.com/topben/go-echo-boilerplate/users/models"
 )
 
 type usersService struct{}

@@ -1,14 +1,15 @@
 package main
 
 import (
+	"log"
+
 	"github.com/go-playground/validator"
 	"github.com/joho/godotenv"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
-	"github.com/triaton/go-echo-boilerplate/common"
-	"github.com/triaton/go-echo-boilerplate/database"
-	"github.com/triaton/go-echo-boilerplate/routes"
-	"log"
+	"github.com/topben/go-echo-boilerplate/common"
+	"github.com/topben/go-echo-boilerplate/database"
+	"github.com/topben/go-echo-boilerplate/routes"
 )
 
 func main() {

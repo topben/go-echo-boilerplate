@@ -10,6 +10,7 @@ type PsqlDbConnection struct {
 	DbDatabase string
 	DbUsername string
 	DbPassword string
+	DbSslmode  string
 }
 
 type DatabaseConfig struct {
@@ -24,6 +25,7 @@ func DatabaseNew() Database {
 			DbDatabase: os.Getenv("DB_DATABASE"),
 			DbUsername: os.Getenv("DB_USERNAME"),
 			DbPassword: os.Getenv("DB_PASSWORD"),
+			DbSslmode:  os.Getenv("DB_SSLMODE"),
 		},
 	}
 }

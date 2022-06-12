@@ -3,23 +3,24 @@ package auth
 import (
 	"bytes"
 	"encoding/json"
+	"net/http"
+	"net/http/httptest"
+	"testing"
+	"time"
+
 	"github.com/dgrijalva/jwt-go"
 	"github.com/go-playground/validator"
 	"github.com/labstack/echo/v4"
 	uuid "github.com/satori/go.uuid"
 	"github.com/stretchr/testify/assert"
-	"github.com/triaton/go-echo-boilerplate/common"
-	"github.com/triaton/go-echo-boilerplate/common/utils"
-	"github.com/triaton/go-echo-boilerplate/config"
-	MocksUtils "github.com/triaton/go-echo-boilerplate/mocks/common/utils"
-	MocksUsers "github.com/triaton/go-echo-boilerplate/mocks/users"
-	"github.com/triaton/go-echo-boilerplate/test"
-	"github.com/triaton/go-echo-boilerplate/users"
-	UserModels "github.com/triaton/go-echo-boilerplate/users/models"
-	"net/http"
-	"net/http/httptest"
-	"testing"
-	"time"
+	"github.com/topben/go-echo-boilerplate/common"
+	"github.com/topben/go-echo-boilerplate/common/utils"
+	"github.com/topben/go-echo-boilerplate/config"
+	MocksUtils "github.com/topben/go-echo-boilerplate/mocks/common/utils"
+	MocksUsers "github.com/topben/go-echo-boilerplate/mocks/users"
+	"github.com/topben/go-echo-boilerplate/test"
+	"github.com/topben/go-echo-boilerplate/users"
+	UserModels "github.com/topben/go-echo-boilerplate/users/models"
 )
 
 var testName = "test"
@@ -258,7 +259,7 @@ func TestProfile(t *testing.T) {
 	req.Header.Set(echo.HeaderAuthorization, token)
 	resp := httptest.NewRecorder()
 	context := testServer.NewContext(req, resp)
-	uid, _ := uuid.NewV4()
+	uid := uuid.NewV4()
 	jwtClaims := common.JwtCustomClaims{
 		Name: testName,
 		Id:   uid,

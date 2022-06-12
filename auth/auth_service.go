@@ -1,13 +1,14 @@
 package auth
 
 import (
-	"github.com/dgrijalva/jwt-go"
-	"github.com/triaton/go-echo-boilerplate/common"
-	"github.com/triaton/go-echo-boilerplate/config"
-	UserModels "github.com/triaton/go-echo-boilerplate/users/models"
 	"os"
 	"sync"
 	"time"
+
+	"github.com/dgrijalva/jwt-go"
+	"github.com/topben/go-echo-boilerplate/common"
+	"github.com/topben/go-echo-boilerplate/config"
+	UserModels "github.com/topben/go-echo-boilerplate/users/models"
 )
 
 type authService struct{}

@@ -1,39 +1,38 @@
-module github.com/triaton/go-echo-boilerplate
+module github.com/topben/go-echo-boilerplate
 
-go 1.14
+go 1.18
 
 require (
-	github.com/0xAX/notificator v0.0.0-20191016112426-3962a5ea8da1 // indirect
-	github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
-	github.com/codegangsta/envy v0.0.0-20141216192214-4b78388c8ce4 // indirect
-	github.com/codegangsta/gin v0.0.0-20171026143024-cafe2ce98974 // indirect
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
-	github.com/go-openapi/spec v0.19.8 // indirect
-	github.com/go-openapi/swag v0.19.9 // indirect
-	github.com/go-playground/universal-translator v0.17.0 // indirect
 	github.com/go-playground/validator v9.31.0+incompatible
-	github.com/jinzhu/gorm v1.9.14
-	github.com/joho/godotenv v1.3.0
-	github.com/labstack/echo v3.3.10+incompatible
-	github.com/labstack/echo/v4 v4.1.16
-	github.com/labstack/gommon v0.3.0
-	github.com/leodido/go-urn v1.2.0 // indirect
-	github.com/mailru/easyjson v0.7.1 // indirect
-	github.com/mattn/echo-livereload v0.0.0-20200327055657-db8a57cc4c02
-	github.com/mattn/go-colorable v0.1.7 // indirect
-	github.com/mattn/go-shellwords v1.0.10 // indirect
-	github.com/satori/go.uuid v1.2.1-0.20181028125025-b2ce2384e17b
-	github.com/stretchr/testify v1.4.0
-	github.com/swaggo/echo-swagger v1.0.0 // indirect
-	github.com/swaggo/swag v1.6.7
-	github.com/valyala/fasttemplate v1.2.0 // indirect
-	github.com/vektra/mockery v1.1.2 // indirect
-	golang.org/x/crypto v0.0.0-20200709230013-948cd5f35899
-	golang.org/x/net v0.0.0-20200707034311-ab3426394381 // indirect
-	golang.org/x/sys v0.0.0-20200625212154-ddb9806d33ae // indirect
-	golang.org/x/text v0.3.3 // indirect
-	golang.org/x/tools v0.0.0-20200715235423-130c9f19d3fe // indirect
+	github.com/jinzhu/gorm v1.9.16
+	github.com/joho/godotenv v1.4.0
+	github.com/labstack/echo/v4 v4.7.2
+	github.com/satori/go.uuid v1.2.0
+	github.com/stretchr/testify v1.7.2
+	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e
 	gopkg.in/gormigrate.v1 v1.6.0
-	gopkg.in/urfave/cli.v1 v1.20.0 // indirect
-	gopkg.in/yaml.v2 v2.3.0 // indirect
+)
+
+require (
+	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/go-playground/locales v0.14.0 // indirect
+	github.com/go-playground/universal-translator v0.18.0 // indirect
+	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
+	github.com/jinzhu/inflection v1.0.0 // indirect
+	github.com/labstack/gommon v0.3.1 // indirect
+	github.com/leodido/go-urn v1.2.1 // indirect
+	github.com/lib/pq v1.1.1 // indirect
+	github.com/mattn/go-colorable v0.1.11 // indirect
+	github.com/mattn/go-isatty v0.0.14 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/stretchr/objx v0.1.0 // indirect
+	github.com/valyala/bytebufferpool v1.0.0 // indirect
+	github.com/valyala/fasttemplate v1.2.1 // indirect
+	golang.org/x/net v0.0.0-20211112202133-69e39bad7dc2 // indirect
+	golang.org/x/sys v0.0.0-20211103235746-7861aae1554b // indirect
+	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/time v0.0.0-20201208040808-7e3f01d25324 // indirect
+	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )

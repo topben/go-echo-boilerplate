@@ -11,10 +11,10 @@ This project ships following features as default
 
  Inspired from [Gin boilerplate](https://github.com/Massad/gin-boilerplate).
  
-[![License](https://img.shields.io/github/license/triaton/go-echo-boilerplate)](https://github.com/triaton/go-echo-boilerplate/blob/master/LICENSE)
-[![Go Version](https://img.shields.io/github/go-mod/go-version/triaton/go-echo-boilerplate)](https://github.com/triaton/go-echo-boilerplate/blob/master/go.mod)
-[![DB Version](https://img.shields.io/badge/DB-PostgreSQL--latest-blue)](https://github.com/triaton/go-echo-boilerplate/blob/master/go.mod)
-[![Build Status](https://travis-ci.com/triaton/go-echo-boilerplate.svg?branch=master)](https://travis-ci.org/triaton/go-echo-boilerplate) [![Go Report Card](https://goreportcard.com/badge/github.com/triaton/go-echo-boilerplate)](https://goreportcard.com/report/github.com/triaton/go-echo-boilerplate)
+[![License](https://img.shields.io/github/license/triaton/go-echo-boilerplate)](https://github.com/topben/go-echo-boilerplate/blob/master/LICENSE)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/triaton/go-echo-boilerplate)](https://github.com/topben/go-echo-boilerplate/blob/master/go.mod)
+[![DB Version](https://img.shields.io/badge/DB-PostgreSQL--latest-blue)](https://github.com/topben/go-echo-boilerplate/blob/master/go.mod)
+[![Build Status](https://travis-ci.com/triaton/go-echo-boilerplate.svg?branch=master)](https://travis-ci.org/triaton/go-echo-boilerplate) [![Go Report Card](https://goreportcard.com/badge/github.com/topben/go-echo-boilerplate)](https://goreportcard.com/report/github.com/topben/go-echo-boilerplate)
 
 ## Configured with
 - [gorm](https://github.com/jinzhu/gorm): ORM library for Golang
@@ -31,11 +31,11 @@ This project ships following features as default
 ### Installation
 
 ```
-$ go get github.com/triaton/go-echo-boilerplate
+$ go get github.com/topben/go-echo-boilerplate
 ```
 
 ```
-$ cd $GOPATH/src/github.com/triaton/go-echo-boilerplate
+$ cd $GOPATH/src/github.com/topben/go-echo-boilerplate
 ```
 
 ```

@@ -1,12 +1,13 @@
 package blogs
 
 import (
+	"net/http"
+
 	"github.com/dgrijalva/jwt-go"
 	"github.com/labstack/echo/v4"
-	"github.com/triaton/go-echo-boilerplate/blogs/models"
-	"github.com/triaton/go-echo-boilerplate/common"
-	"github.com/triaton/go-echo-boilerplate/database"
-	"net/http"
+	"github.com/topben/go-echo-boilerplate/blogs/models"
+	"github.com/topben/go-echo-boilerplate/common"
+	"github.com/topben/go-echo-boilerplate/database"
 )
 
 type (
